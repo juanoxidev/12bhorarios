@@ -15,8 +15,8 @@ body {
     "bd1 p1 pnt1 tp1";
   border: 2px solid #f7f7ff;
   width: 90%;
+  height: 100%;
   margin: 0 auto;
-  height: auto;
 }
 
 img {
