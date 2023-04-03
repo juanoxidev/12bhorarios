@@ -19,12 +19,16 @@ body {
     "sa p1 pnt1 tp1"
     "so p1 pnt1 tp1"
     "bd1 p1 pnt1 tp1";
-  border: 2px solid #f7f7ff;
-  width: 90%;
+  width: 100%;
   height: 100%;
   margin: 0 auto;
 }
 
+.contenido {
+  width: 100%;
+  height: 100%;
+  border: 2px solid white;
+}
 img {
   margin-top: 5rem;
 }
