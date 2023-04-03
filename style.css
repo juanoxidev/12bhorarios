@@ -2,6 +2,9 @@ body {
   background-color: #2f2f2f;
   color: #f7f7ff;
   text-align: center;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 .container {
   display: grid;
@@ -26,28 +29,24 @@ img {
   grid-area: d1;
   background-color: #2f2f2f;
   color: #f7f7ff;
-  margin: auto;
 }
 
 .d2 {
   grid-area: d2;
   background-color: #2f2f2f;
   color: #f7f7ff;
-  margin: auto;
 }
 
 .d3 {
   grid-area: d3;
   background-color: #2f2f2f;
   color: #f7f7ff;
-  margin: auto;
 }
 
 .d4 {
   grid-area: d4;
   background-color: #2f2f2f;
   color: #f7f7ff;
-  margin: auto;
 }
 
 .sa {
@@ -56,7 +55,8 @@ img {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #235889c0;
+  background-color: #23588963;
+  line-height: 0em;
 }
 
 .so {
@@ -65,7 +65,8 @@ img {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #5a0b4da2;
+  background-color: #5a0b4d67;
+  line-height: 0em;
 }
 
 .bd1 {
@@ -74,7 +75,8 @@ img {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #de3c4ca6;
+  background-color: #de3c4c5b;
+  line-height: 0em;
 }
 
 .p1 {
@@ -83,8 +85,9 @@ img {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #b1730fbb;
+  background-color: #b1730f6e;
   align-items: center;
+  line-height: 0em;
 }
 
 .pnt1 {
@@ -93,7 +96,8 @@ img {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #a44200a4;
+  background-color: #a4420052;
+  line-height: 0em;
 }
 
 .tp1 {
@@ -102,18 +106,41 @@ img {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #b20d3196;
+  background-color: #b911362d;
+  line-height: 0em;
 }
 
 .info {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-content: space-between;
   gap: 5px;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
 a {
   text-decoration: none;
   color: #f7f7ff;
+}
+
+.info_asistencia img {
+  height: auto;
+  width: 50px;
+  margin: auto;
+}
+.info_drive img {
+  height: 50px;
+  margin: auto;
+}
+
+.info_zoom img {
+  height: 50px;
+  margin: auto;
 }
