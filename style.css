@@ -11,7 +11,7 @@ body {
 }
 .container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: auto auto auto auto;
   grid-template-rows: auto auto auto auto;
   grid-auto-flow: row;
   grid-template-areas:
@@ -169,4 +169,26 @@ a {
 .info_zoom img {
   height: 50px;
   margin: auto;
+}
+
+.anio {
+  text-align: center;
+}
+
+@media screen and (max-width: 650px) {
+  .container {
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "d1"
+      "sa"
+      "so"
+      "bd1"
+      "d2"
+      "p1"
+      "d3"
+      "pnt1"
+      "d4"
+      "tp1";
+  }
 }
