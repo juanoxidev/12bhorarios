@@ -25,9 +25,10 @@ body {
 }
 
 .contenido {
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  height: auto;
   border: 2px solid white;
+  margin: auto;
 }
 img {
   margin-top: 5rem;
@@ -190,5 +191,8 @@ a {
       "pnt1"
       "d4"
       "tp1";
+  }
+  .contenido {
+    width: 100%;
   }
 }
